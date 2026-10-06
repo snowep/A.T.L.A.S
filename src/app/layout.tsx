@@ -1,9 +1,8 @@
-import './globals.css';
 import ThemeProvider from '@/components/ThemeProvider';
 
 export const metadata = {
-  title: 'ATLAS',
-  description: 'Next.js + TypeScript + Tailwind + MUI',
+  title: 'Chaos App',
+  description: 'Clean MUI App with Dark/Light Theme',
 };
 
 export default function RootLayout({
@@ -17,7 +16,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 antialiased">
+      <body>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
