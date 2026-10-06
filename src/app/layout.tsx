@@ -1,8 +1,9 @@
 import './globals.css';
+import ThemeProvider from '@/components/ThemeProvider';
 
 export const metadata = {
   title: 'ATLAS',
-  description: 'Next.js + TypeScript + Tailwind',
+  description: 'Next.js + TypeScript + Tailwind + MUI',
 };
 
 export default function RootLayout({
@@ -17,7 +18,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 antialiased">
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
