@@ -11,14 +11,14 @@ const navigation = [
   { label: "Settings", icon: <SettingsIcon />, href: "/settings" },
 ];
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <ClippedDrawerLayout title="A.T.L.A.S." navigationItems={navigation}>
-      <Typography variant="body1" color="text.secondary" align="center">
-        Clean MUI page — dark/light theme functional via useColorScheme
+      <Typography variant="h4" color="text.primary" align="center">
+        Dashboard
       </Typography>
-      <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 2 }}>
-        Left drawer with permanent navigation (clipped under fixed AppBar)
+      <Typography variant="body1" color="text.secondary" align="center" sx={{ mt: 2 }}>
+        Dashboard page — routing functional
       </Typography>
     </ClippedDrawerLayout>
   );

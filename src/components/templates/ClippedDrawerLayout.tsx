@@ -4,9 +4,15 @@ import { Box, CssBaseline, Toolbar } from "@mui/material";
 import { MainAppBar } from "@/components/organisms/MainAppBar";
 import { NavigationDrawer } from "@/components/organisms/NavigationDrawer";
 
+interface NavigationItem {
+  label: string;
+  icon: React.ReactNode;
+  href?: string;
+}
+
 interface ClippedDrawerLayoutProps {
   title: string;
-  navigationItems: Array<{ label: string; icon: React.ReactNode }>;
+  navigationItems: NavigationItem[];
   children: React.ReactNode;
   drawerWidth?: number;
 }

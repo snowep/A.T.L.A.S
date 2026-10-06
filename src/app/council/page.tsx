@@ -1,6 +1,6 @@
 "use client";
 
-import { Typography } from "@mui/material";
+import { CouncilClient } from "./CouncilClient";
 import { ClippedDrawerLayout } from "@/components/templates/ClippedDrawerLayout";
 import { Home as HomeIcon, Dashboard as DashboardIcon, Settings as SettingsIcon, People as UsersIcon } from "@mui/icons-material";
 
@@ -11,15 +11,10 @@ const navigation = [
   { label: "Settings", icon: <SettingsIcon />, href: "/settings" },
 ];
 
-export default function Home() {
+export default function CouncilPage() {
   return (
     <ClippedDrawerLayout title="A.T.L.A.S." navigationItems={navigation}>
-      <Typography variant="body1" color="text.secondary" align="center">
-        Clean MUI page — dark/light theme functional via useColorScheme
-      </Typography>
-      <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 2 }}>
-        Left drawer with permanent navigation (clipped under fixed AppBar)
-      </Typography>
+      <CouncilClient />
     </ClippedDrawerLayout>
   );
 }

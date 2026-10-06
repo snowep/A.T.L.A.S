@@ -6,6 +6,7 @@ import { NavItem } from "@/components/molecules/NavItem";
 interface NavigationItem {
   label: string;
   icon: React.ReactNode;
+  href?: string;
 }
 
 interface NavigationDrawerProps {
@@ -27,7 +28,7 @@ export function NavigationDrawer({ items, width = 240 }: NavigationDrawerProps) 
       <Box sx={{ overflow: "auto" }}>
         <List>
           {items.map((item) => (
-            <NavItem key={item.label} label={item.label} icon={item.icon} />
+            <NavItem key={item.label} label={item.label} icon={item.icon} href={item.href} />
           ))}
         </List>
         <Divider />
