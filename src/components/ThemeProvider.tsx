@@ -1,9 +1,9 @@
 "use client";
 
 import * as React from "react";
-import { ThemeProvider as MuiThemeProvider, createTheme, CssBaseline } from "@mui/material";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
+import { ThemeProvider as MuiThemeProvider, CssBaseline, createTheme } from "@mui/material";
 
 const clientCache = createCache({ key: "mui", prepend: true });
 
