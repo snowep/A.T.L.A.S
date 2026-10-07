@@ -11,7 +11,7 @@ const navigation = [
 
 export default function Settings() {
   return (
-    <ClippedDrawerLayout title="A.T.L.A.S." navigationItems={navigation}>
+    <ClippedDrawerLayout navigationItems={navigation}>
       <Typography variant="h4" color="text.primary" align="center">
         Settings
       </Typography>

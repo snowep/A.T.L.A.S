@@ -49,7 +49,7 @@ export default function Dashboard() {
   const readNextBooks = books.filter(book => book.status === 'read-next');
 
   return (
-    <ClippedDrawerLayout title="A.T.L.A.S. Book Dashboard" navigationItems={navigation}>
+    <ClippedDrawerLayout navigationItems={navigation}>
       <Box sx={{ p: 4 }}>
         <AddBookDialog 
           open={addDialogOpen} 

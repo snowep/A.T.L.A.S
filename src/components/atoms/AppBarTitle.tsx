@@ -2,14 +2,10 @@
 
 import { Typography } from "@mui/material";
 
-interface AppBarTitleProps {
-  children: React.ReactNode;
-}
-
-export function AppBarTitle({ children }: AppBarTitleProps) {
+export function AppBarTitle() {
   return (
     <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-      {children}
+      A.T.L.A.S.
     </Typography>
   );
 }

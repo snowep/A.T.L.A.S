@@ -12,17 +12,22 @@ interface NavigationItem {
 interface NavigationDrawerProps {
   items: NavigationItem[];
   width?: number;
+  variant?: 'permanent' | 'temporary';
+  open?: boolean;
+  onClose?: () => void;
 }
 
-export function NavigationDrawer({ items, width = 240 }: NavigationDrawerProps) {
+export function NavigationDrawer({ items, width = 240, variant = "permanent", open = true, onClose }: NavigationDrawerProps) {
   return (
     <Drawer
-      variant="permanent"
+      variant={variant}
       sx={{
         width,
         flexShrink: 0,
         [`& .MuiDrawer-paper`]: { width, boxSizing: "border-box" },
       }}
+      open={open}
+      onClose={onClose}
     >
       <Toolbar />
       <Box sx={{ overflow: "auto" }}>

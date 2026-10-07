@@ -1,6 +1,7 @@
 "use client";
 
 import { Box, CssBaseline, Toolbar } from "@mui/material";
+import { useState } from "react";
 import { MainAppBar } from "@/components/organisms/MainAppBar";
 import { NavigationDrawer } from "@/components/organisms/NavigationDrawer";
 
@@ -11,23 +12,36 @@ interface NavigationItem {
 }
 
 interface ClippedDrawerLayoutProps {
-  title: string;
   navigationItems: NavigationItem[];
   children: React.ReactNode;
   drawerWidth?: number;
 }
 
 export function ClippedDrawerLayout({
-  title,
   navigationItems,
   children,
   drawerWidth = 240,
 }: ClippedDrawerLayoutProps) {
+  const [drawerOpen, setDrawerOpen] = useState(true);
+
+  const toggleDrawer = (open: boolean) => () => {
+    setDrawerOpen(open);
+  };
+
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <MainAppBar title={title} />
-      <NavigationDrawer items={navigationItems} width={drawerWidth} />
+      <MainAppBar 
+        toggleDrawer={toggleDrawer} 
+        drawerOpen={drawerOpen} 
+      />
+      <NavigationDrawer 
+        items={navigationItems} 
+        width={drawerWidth} 
+        variant={drawerOpen ? "permanent" : "temporary"}
+        open={drawerOpen}
+        onClose={toggleDrawer(false)}
+      />
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar />
         {children}
