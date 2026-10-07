@@ -3,27 +3,19 @@
 import * as React from "react";
 import {
   ThemeProvider as MuiThemeProvider,
-  createTheme,
   CssBaseline,
 } from "@mui/material";
-import { useColorScheme } from "@mui/material/styles";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
+import linearTheme from "@/theme/linearTheme";
 
 function createEmotionCache() {
   return createCache({ key: "mui", prepend: true });
 }
 
 function ColorSchemeContextProvider({ children }: { children: React.ReactNode }) {
-  const theme = React.useMemo(
-    () => createTheme({
-      colorSchemes: { light: {}, dark: {} },
-    }),
-    []
-  );
-
   return (
-    <MuiThemeProvider theme={theme}>
+    <MuiThemeProvider theme={linearTheme}>
       <CssBaseline enableColorScheme />
       {children}
     </MuiThemeProvider>

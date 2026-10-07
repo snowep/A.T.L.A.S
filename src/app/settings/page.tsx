@@ -2,12 +2,10 @@
 
 import { Typography } from "@mui/material";
 import { ClippedDrawerLayout } from "@/components/templates/ClippedDrawerLayout";
-import { Home as HomeIcon, Dashboard as DashboardIcon, Settings as SettingsIcon, People as UsersIcon } from "@mui/icons-material";
+import { Home as HomeIcon, Dashboard as DashboardIcon, Settings as SettingsIcon } from "@mui/icons-material";
 
 const navigation = [
-  { label: "Home", icon: <HomeIcon />, href: "/" },
-  { label: "Council", icon: <UsersIcon />, href: "/council" },
-  { label: "Dashboard", icon: <DashboardIcon />, href: "/dashboard" },
+  { label: "Dashboard", icon: <DashboardIcon />, href: "/" },
   { label: "Settings", icon: <SettingsIcon />, href: "/settings" },
 ];
 
