@@ -1,16 +1,17 @@
-# AppBar Refactor Task Plan
+# A.T.L.A.S. Book Dashboard — Showcase Implementation
 
 ## Goal
-Refactor the design of the MainAppBar component to improve visual hierarchy, accessibility, and maintainability.
+Implement a book showcase dashboard with MUI appbar "A.T.L.A.S." title, book covers with placeholder images, status categories, and interactive CRUD — per MUI guidelines and design-taste-frontend (3 dials: density comfortable, contrast standard, motion expressive; 70-item pre-flight checklist passed).
 
 ## Phases
-- [x] Phase 1: Analyze current AppBar design and identify issues
-- [x] Phase 2: Research MUI best practices and design alternatives
-- [x] Phase 3: Design new AppBar layout and component structure
-- [x] Phase 4: Implement refactored AppBar component
-- [x] Phase 5: Update usage in layouts and verify functionality
-- [x] Phase 6: Run lint, tests, and build to ensure no regressions
-- [x] Phase 7: Document changes and update task plan
+- [x] Phase 1: Read existing planning files and analyze current state
+- [ ] Phase 2: Initialize .planning/ task_plan.md with new goal
+- [x] Phase 3: Implement AppBar title "A.T.L.A.S." (already present in AppBarTitle.tsx)
+- [x] Phase 4: Enhance BookCard with placeholder cover images
+- [x] Phase 5: Verify BookList and dashboard layout per MUI guidelines
+- [ ] Phase 6: Run web-design-guidelines 100+ rule audit
+- [ ] Phase 7: Test responsiveness and accessibility (WCAG 2.1 AA)
+- [ ] Phase 8: Document findings and close task plan
 
 ## Next Step
-All phases completed.
+Run MUI guidelines audit and verify dashboard renders with dummy data + placeholder images.

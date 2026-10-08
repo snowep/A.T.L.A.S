@@ -15,19 +15,10 @@ export function MainAppBar({ toggleDrawer, drawerOpen }: MainAppBarProps) {
   const theme = useTheme();
 
   return (
-    <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
-      <Toolbar>
+    <AppBar position="fixed" sx={{ width: { xs: '100%', md: 800 }, mx: 'auto', zIndex: theme.zIndex.drawer + 1 }}>
+      <Toolbar sx={{ flexGrow: 1 }}>
         {/* AppBar Title */}
         <AppBarTitle />
-        {/* Hidden on md and up */}
-        <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-          <Tooltip title={drawerOpen ? 'Close menu' : 'Open menu'}>
-            <IconButton edge="start" color="inherit" onClick={() => toggleDrawer(false)}
-              aria-label={drawerOpen ? 'close drawer' : 'open drawer'}>
-              <MenuIcon />
-            </IconButton>
-          </Tooltip>
-        </Box>
         {/* Search Box: full-width on mobile, right-aligned on desktop */}
         <Box sx={{ flexGrow: 1, display: { xs: 'block', md: 'flex' }, justifyContent: 'flex-end' }}>
           <SearchBox />

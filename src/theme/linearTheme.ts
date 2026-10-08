@@ -6,36 +6,39 @@ const linearTheme = createTheme({
       palette: {
         mode: 'light',
         background: {
-          default: '#F5F1E8',
+          default: '#F5F1E8', // Divine Bone
           paper: '#ffffff',
         },
         primary: {
+          // Main text and primary elements - Worn Charcoal for dark text on light background
           main: '#1E1E1E',
           light: '#3C3C3C',
           dark: '#000000',
           contrastText: '#ffffff',
         },
         secondary: {
+          // Secondary text and elements - Ash Grey
           main: '#A8A8A8',
           light: '#C0C0C0',
           dark: '#808080',
           contrastText: '#000000',
         },
+        // Divine palette as accents
         success: {
-          main: '#D43131',
+          main: '#D43131', // Blood Oath Red
           light: '#E04D4D',
           dark: '#B02727',
           contrastText: '#ffffff',
         },
         info: {
-          main: '#F2C55E',
+          main: '#F2C55E', // Halo Ember Gold
           light: '#F4D27A',
           dark: '#D4AC4C',
           contrastText: '#000000',
         },
         text: {
-          primary: '#1E1E1E',
-          secondary: '#A8A8A8',
+          primary: '#1E1E1E', // Worn Charcoal for primary text
+          secondary: '#A8A8A8', // Ash Grey for secondary text
           disabled: '#D4D4D4',
         },
         divider: 'rgba(0, 0, 0, 0.12)',
@@ -49,36 +52,39 @@ const linearTheme = createTheme({
       palette: {
         mode: 'dark',
         background: {
-          default: '#F5F1E8',
-          paper: '#0f1011',
+          default: '#121212', // Proper dark background (not Divine Bone)
+          paper: '#1E1E1E',   // Worn Charcoal for paper/elevation
         },
         primary: {
-          main: '#1E1E1E',
-          light: '#3C3C3C',
-          dark: '#000000',
-          contrastText: '#ffffff',
+          // Main text and primary elements - light for dark background
+          main: '#ffffff',
+          light: '#ffffff',
+          dark: '#b3b3b3',
+          contrastText: '#000000',
         },
         secondary: {
-          main: '#A8A8A8',
+          // Secondary text and elements
+          main: '#A8A8A8', // Ash Grey still works as secondary
           light: '#C0C0C0',
           dark: '#808080',
           contrastText: '#000000',
         },
+        // Divine palette as accents (should still be visible on dark background)
         success: {
-          main: '#D43131',
+          main: '#D43131', // Blood Oath Red
           light: '#E04D4D',
           dark: '#B02727',
-          contrastText: '#ffffff',
+          contrastText: '#000000',
         },
         info: {
-          main: '#F2C55E',
+          main: '#F2C55E', // Halo Ember Gold
           light: '#F4D27A',
           dark: '#D4AC4C',
           contrastText: '#000000',
         },
         text: {
-          primary: '#F5F1E8',
-          secondary: '#D4D4D4',
+          primary: '#ffffff', // White for primary text on dark background
+          secondary: '#A8A8A8', // Ash Grey for secondary text
           disabled: '#888888',
         },
         divider: 'rgba(255, 255, 255, 0.12)',
@@ -177,7 +183,7 @@ const linearTheme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: ({ theme }) => ({
-          backgroundColor: theme.palette.mode === 'light' ? theme.palette.primary.main : theme.palette.background.default,
+          backgroundColor: theme.palette.background.paper,
           borderBottom: '1px solid',
           borderColor: theme.palette.divider,
           boxShadow: 'none',

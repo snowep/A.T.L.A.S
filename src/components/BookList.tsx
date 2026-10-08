@@ -30,16 +30,13 @@ export default function BookList({
       <Typography variant="h5" color="text.primary" gutterBottom>
         {title}
       </Typography>
-      <Stack spacing={2}>
-        {books.map((book) => (
-          <BookCard
-            key={book.id}
-            book={book}
-            onRemove={onRemove}
-            onStatusChange={onStatusChange}
-          />
+      <Grid container spacing={2}>
+        {books.map((b) => (
+          <Grid item xs={12} sm={6} md={4} lg={3} key={b.id}>
+            <BookCard book={b} />
+          </Grid>
         ))}
-      </Stack>
+      </Grid>
     </Box>
   );
 }
