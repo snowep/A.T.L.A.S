@@ -17,6 +17,8 @@ export function MainAppBar({ toggleDrawer, drawerOpen }: MainAppBarProps) {
   return (
     <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
       <Toolbar>
+        {/* AppBar Title */}
+        <AppBarTitle />
         {/* Hidden on md and up */}
         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
           <Tooltip title={drawerOpen ? 'Close menu' : 'Open menu'}>
@@ -26,9 +28,8 @@ export function MainAppBar({ toggleDrawer, drawerOpen }: MainAppBarProps) {
             </IconButton>
           </Tooltip>
         </Box>
-        <AppBarTitle />
-        {/* Spacer to push SearchBox and ThemeToggleButton to the right */}
-        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+        {/* Search Box: full-width on mobile, right-aligned on desktop */}
+        <Box sx={{ flexGrow: 1, display: { xs: 'block', md: 'flex' }, justifyContent: 'flex-end' }}>
           <SearchBox />
         </Box>
         <ThemeToggleButton />

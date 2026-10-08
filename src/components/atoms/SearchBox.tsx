@@ -19,14 +19,12 @@ export function SearchBox() {
         },
         "& .MuiOutlinedInput-root": {
           borderRadius: 2,
-          // Transparent background, white outline for visibility
           backgroundColor: "transparent",
-          borderColor: "white",
+          borderColor: theme.palette.divider,
           borderWidth: 1,
         },
         "&:hover .MuiOutlinedInput-root": {
-          borderColor: "white",
-          // Optional: very subtle background on hover
+          borderColor: theme.palette.action.active,
           backgroundColor: theme.palette.mode === "light"
             ? "rgba(0, 0, 0, 0.03)"
             : "rgba(255, 255, 255, 0.03)",
