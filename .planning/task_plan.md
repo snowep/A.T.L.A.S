@@ -19,5 +19,15 @@ Implement a book showcase dashboard with MUI appbar "A.T.L.A.S." title, book cov
 - [ ] Phase 7: Test responsiveness and accessibility (WCAG 2.1 AA)
 - [ ] Phase 8: Document findings and close task plan
 
+## Atomic Design for BookCard (NEW)
+- [x] Phase A1: Create BookCover atom with dynamic gradient colors
+- [x] Phase A2: Create BookTitle atom with line clamping
+- [x] Phase A3: Create BookAuthor atom with ellipsis
+- [x] Phase A4: Create BookMeta atom for date display
+- [x] Phase A5: Create BookStatusSelector molecule
+- [x] Phase A6: Create BookRemoveButton molecule
+- [x] Phase A7: Refactor BookCard to use atomic components
+- [x] Phase A8: FeaturedBookStrip reuses BookCover, BookTitle, BookAuthor atoms
+
 ## Next Step
 Run MUI guidelines audit and verify dashboard renders with dummy data + placeholder images.
