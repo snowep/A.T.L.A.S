@@ -7,9 +7,9 @@ import { Dashboard as DashboardIcon, Settings as SettingsIcon } from "@mui/icons
 import { Add as AddIcon } from "@mui/icons-material";
 import { Fab } from "@mui/material";
 import { ClippedDrawerLayout } from "@/components/templates/ClippedDrawerLayout";
-import { AddBookDialog } from "@/components/AddBookDialog";
-import { FeaturedBookStrip } from "@/components/FeaturedBookStrip";
-import { BookListGrid } from "@/components/BookListGrid";
+import AddBookDialog from "@/components/AddBookDialog";
+import FeaturedBookStrip from "@/components/FeaturedBookStrip";
+import BookListGrid from "@/components/BookListGrid";
 import { Book } from "@/lib/bookData";
 import { placeholderBooks } from "@/lib/bookData";
 
@@ -71,8 +71,8 @@ export default function Dashboard() {
         </Fab>
 
         <Box sx={{ 
-          maxWidth: 1200, 
-          mx: 'auto',
+          width: '100%',
+          px: { xs: 2, md: 4 },
           '& h5': {
             fontFamily: theme.typography.fontFamily,
             fontWeight: 510,
