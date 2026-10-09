@@ -29,5 +29,18 @@ Implement a book showcase dashboard with MUI appbar "A.T.L.A.S." title, book cov
 - [x] Phase E7: Add interaction states (focus, hover, empty, loading, error)
 - [x] Phase E8: Theme support (light/dark), accessibility audit, contrast verification
 
+## Navigation Rail Redesign (NEW)
+- [x] Phase N1: Convert NavItem to icon-only with tooltip on hover/focus
+- [x] Phase N2: Set optimal rail width (72px per MUI/Linear guidelines) with 44px minimum touch targets
+- [x] Phase N3: Add hover/focus states with proper contrast and ripple effect
+- [x] Phase N4: Implement responsive behavior - rail collapses to bottom nav on mobile (<1024px)
+- [x] Phase N5: Add active state indicator per Linear.app design (subtle background + accent indicator)
+
+## Front Page Redesign (NEW)
+- [x] Phase F1: Create FeaturedBookStrip component with "Top Picks This Week" design
+- [x] Phase F2: Replace all BookList sections with FeaturedBookStrip per category
+- [x] Phase F3: Add getCoverColor helper for dynamic cover colors
+- [x] Phase F4: Remove unused handlers, clean up page.tsx
+
 ## Next Step
-Editorial dashboard experiment complete. TypeScript and lint pass.
+All phases complete. Both branches ready for review.
