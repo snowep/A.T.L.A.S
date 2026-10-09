@@ -26,7 +26,7 @@ export function BookTitle({ title, variant = "h6", maxLines = 2, sx = {} }: Book
         ...sx,
       }}
     >
-      aa{title}
+      {title}
     </Typography>
   );
 }
