@@ -27,7 +27,7 @@ Implement a book showcase dashboard with MUI appbar "A.T.L.A.S." title, book cov
 - [x] Phase E5: Build right recommendation rail with tinted panel
 - [x] Phase E6: Implement responsive behavior (desktop → tablet → mobile)
 - [x] Phase E7: Add interaction states (focus, hover, empty, loading, error)
-- [ ] Phase E8: Theme support (light/dark), accessibility audit, contrast verification
+- [x] Phase E8: Theme support (light/dark), accessibility audit, contrast verification
 
 ## Next Step
-Run accessibility audit with axe-core and verify WCAG AA contrast across all components
+Editorial dashboard experiment complete. TypeScript and lint pass.
