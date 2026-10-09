@@ -36,3 +36,34 @@ Implement a book showcase dashboard with MUI appbar "A.T.L.A.S." title, book cov
 
 ## Next Step
 All phases complete. Ready for production.
+
+## Material Design 3 Migration (v0.3.0)
+### Phase 1: Theme Foundation
+- [ ] Create Material 3 color system (tonal palettes)
+- [ ] Implement dynamic color scheme generation
+- [ ] Set up Material 3 typography scale
+- [ ] Configure elevation/shadow system
+
+### Phase 2: Component Overrides
+- [ ] Buttons (Filled, Tonal, Outlined, Text)
+- [ ] Cards (Elevated, Filled, Outlined)
+- [ ] Chips (Input, Filter, Suggestion, Action)
+- [ ] Text Fields (Outlined, Filled)
+- [ ] Navigation (Bar, Rail, Drawer)
+- [ ] Chips, Badges, Progress indicators
+
+### Phase 3: Motion & Interaction
+- [ ] Easing curves (Standard, Emphasized, Decelerated)
+- [ ] State layers (hover, focus, pressed, dragged)
+- [ ] Transitions between pages/states
+
+### Phase 4: Layout & Containers
+- [ ] Container queries for responsive design
+- [ ] Adaptive layouts (phone, tablet, desktop)
+- [ ] Navigation patterns per breakpoint
+
+### Phase 5: Accessibility & Polish
+- [ ] WCAG AA contrast verification
+- [ ] Reduced motion support
+- [ ] Focus visible states
+- [ ] RTL support

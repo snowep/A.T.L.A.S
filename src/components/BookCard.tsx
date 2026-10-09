@@ -24,12 +24,15 @@ export default function BookCard({
     <Card 
       sx={{ 
         mb: 2,
-        width: { xs: '100%', md: 400 },
-        borderRadius: 8,
-        transition: 'transform 0.2s, box-shadow 0.2s',
+        width: '100%',
+        borderRadius: 2,
+        backgroundColor: 'rgba(255,255,255,0.02)',
+        border: '1px solid rgba(255,255,255,0.08)',
+        transition: 'all 0.2s ease',
         '&:hover': { 
+          backgroundColor: 'rgba(255,255,255,0.04)',
           transform: 'translateY(-2px)',
-          boxShadow: 4 
+          boxShadow: 4
         }
       }}
     >

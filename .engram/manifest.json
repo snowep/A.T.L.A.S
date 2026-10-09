@@ -1,0 +1,222 @@
+{
+  "D:/Project/A.T.L.A.S/eslint.config.mjs": {
+    "mtime": 1791215702551.7234,
+    "hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "D:/Project/A.T.L.A.S/jest.config.js": {
+    "mtime": 1791546645450.3564,
+    "hash": "f865a245b9370122daf0afe4774693e2"
+  },
+  "D:/Project/A.T.L.A.S/jest.setup.ts": {
+    "mtime": 1791560727442.1648,
+    "hash": "c6206c66a786e2fbc5e2339fcb4bba0e"
+  },
+  "D:/Project/A.T.L.A.S/next.config.ts": {
+    "mtime": 1791215702786.2847,
+    "hash": "9b77af189a21a7a64e4bd7a426f64176"
+  },
+  "D:/Project/A.T.L.A.S/playwright.config.ts": {
+    "mtime": 1791546645452.5427,
+    "hash": "b5b878fccd0a509eae31d34dc3e0396f"
+  },
+  "D:/Project/A.T.L.A.S/src/app/api/placeholder-book/route.ts": {
+    "mtime": 1791550357825.6255,
+    "hash": "65646ab4e674a4e1d8bb6f7b0a3db7fa"
+  },
+  "D:/Project/A.T.L.A.S/src/app/layout.tsx": {
+    "mtime": 1791546645454.7466,
+    "hash": "09552428803db17ffcf119b0994bbefa"
+  },
+  "D:/Project/A.T.L.A.S/src/app/page.tsx": {
+    "mtime": 1791546645455.7605,
+    "hash": "5ec202c77121bff3902d88ff82bdcd6c"
+  },
+  "D:/Project/A.T.L.A.S/src/app/settings/page.tsx": {
+    "mtime": 1791546315988.9785,
+    "hash": "40bb09cbce94fbf2d706c63ac7fa8877"
+  },
+  "D:/Project/A.T.L.A.S/src/components/AddBookDialog.tsx": {
+    "mtime": 1791546424089.971,
+    "hash": "b1109781aa5035f5bdf024dc8020a2e1"
+  },
+  "D:/Project/A.T.L.A.S/src/components/BookCard.tsx": {
+    "mtime": 1791546645467.7544,
+    "hash": "9ffd815185a758d92d2cda2b583c9563"
+  },
+  "D:/Project/A.T.L.A.S/src/components/BookList.tsx": {
+    "mtime": 1791563335952.2998,
+    "hash": "d467be72eee1c587f716495e4692e9a3"
+  },
+  "D:/Project/A.T.L.A.S/src/components/FeaturedBookStrip.tsx": {
+    "mtime": 1791546645470.3193,
+    "hash": "2cbaecc6b485f21e148d4a5afff180b1"
+  },
+  "D:/Project/A.T.L.A.S/src/components/ThemeProvider.tsx": {
+    "mtime": 1791548142903.0747,
+    "hash": "0ca4b7ae88363a911a1c470c99c25a62"
+  },
+  "D:/Project/A.T.L.A.S/src/components/atoms/AppBarTitle.tsx": {
+    "mtime": 1791550357865.629,
+    "hash": "962f6b8cca8b2a955ffd9f5c3254d27e"
+  },
+  "D:/Project/A.T.L.A.S/src/components/atoms/BookAuthor.tsx": {
+    "mtime": 1791546645471.4146,
+    "hash": "5f4d007c860403468317a551639be90e"
+  },
+  "D:/Project/A.T.L.A.S/src/components/atoms/BookCover.tsx": {
+    "mtime": 1791546645472.4297,
+    "hash": "d8f1483558212b135a3c1a68bb57999b"
+  },
+  "D:/Project/A.T.L.A.S/src/components/atoms/BookMeta.tsx": {
+    "mtime": 1791546645473.5576,
+    "hash": "bf3c60b72a00a9998ff4b86e83db250a"
+  },
+  "D:/Project/A.T.L.A.S/src/components/atoms/BookTitle.tsx": {
+    "mtime": 1791546645474.5483,
+    "hash": "246b8bafd3e14d85d0e28aeaa7d8c7f8"
+  },
+  "D:/Project/A.T.L.A.S/src/components/atoms/NavIcon.tsx": {
+    "mtime": 1791262457145.7627,
+    "hash": "b0e8d12697375f92cbabe39b44b40b5c"
+  },
+  "D:/Project/A.T.L.A.S/src/components/atoms/SearchBox.tsx": {
+    "mtime": 1791546645476.4814,
+    "hash": "e3e19dc4db4bcd0bc262dda587e43a4d"
+  },
+  "D:/Project/A.T.L.A.S/src/components/atoms/ThemeToggleButton.tsx": {
+    "mtime": 1791550357869.622,
+    "hash": "f43e8e3a80bb69f5dfdf15428ea5d33a"
+  },
+  "D:/Project/A.T.L.A.S/src/components/molecules/BookRemoveButton.tsx": {
+    "mtime": 1791546645477.4905,
+    "hash": "fef4cd35d5da248c73794fb19dae7b37"
+  },
+  "D:/Project/A.T.L.A.S/src/components/molecules/BookStatusSelector.tsx": {
+    "mtime": 1791546645477.4905,
+    "hash": "cc2a0108208b267eb565c44ba599ab26"
+  },
+  "D:/Project/A.T.L.A.S/src/components/molecules/NavItem.tsx": {
+    "mtime": 1791546645479.5496,
+    "hash": "8e88a6bf9e6b2f52d1d31be7a6219c80"
+  },
+  "D:/Project/A.T.L.A.S/src/components/organisms/MainAppBar.tsx": {
+    "mtime": 1791546645484.611,
+    "hash": "fac52daf022b225b905a585badfcdf34"
+  },
+  "D:/Project/A.T.L.A.S/src/components/organisms/NavigationDrawer.tsx": {
+    "mtime": 1791544026885.3438,
+    "hash": "d85d0aadbd859930bbd7f976dbe0f14f"
+  },
+  "D:/Project/A.T.L.A.S/src/components/templates/ClippedDrawerLayout.tsx": {
+    "mtime": 1791562847898.2537,
+    "hash": "406d9d51c4a0c61294030cbd5355360d"
+  },
+  "D:/Project/A.T.L.A.S/src/lib/bookData.ts": {
+    "mtime": 1791546645488.5906,
+    "hash": "465d5067464c01e6c29a20b9ccaecb0d"
+  },
+  "D:/Project/A.T.L.A.S/src/lib/db.ts": {
+    "mtime": 1791355054729.076,
+    "hash": "95426778811f544fb350ee6ebbb014b7"
+  },
+  "D:/Project/A.T.L.A.S/src/theme/linearTheme.ts": {
+    "mtime": 1791550357881.563,
+    "hash": "4ff79e5ea60780579ca7e76ac486f2e9"
+  },
+  "D:/Project/A.T.L.A.S/src/theme/m3.d.ts": {
+    "mtime": 1791558342919.927,
+    "hash": "b6957ba07d275845dd9679d5680da2fb"
+  },
+  "D:/Project/A.T.L.A.S/src/theme/material3Theme.ts": {
+    "mtime": 1791563200938.331,
+    "hash": "5954ff02f7954ab3ff02f3801a68b3f2"
+  },
+  "D:/Project/A.T.L.A.S/tests/app-acceptance.test.ts": {
+    "mtime": 1791546645530.5696,
+    "hash": "12a1bf046614b06d7172b1c275d33de3"
+  },
+  "D:/Project/A.T.L.A.S/AGENTS.md": {
+    "mtime": 1791550357820.1104,
+    "hash": "20cecda8f28b42c9b795c33bd97b1378"
+  },
+  "D:/Project/A.T.L.A.S/atlas-architecture.html": {
+    "mtime": 1791355053983.7402,
+    "hash": "d4e6f034431afbdc2e07fbc1c76d5eed"
+  },
+  "D:/Project/A.T.L.A.S/task_plan.md": {
+    "mtime": 1791550357883.6384,
+    "hash": "a0d1823480a627d422a2ccd36d1bf423"
+  },
+  "D:/Project/A.T.L.A.S/test-results/tests-app-acceptance-API-p-854bc-ook-endpoint-returns-images/error-context.md": {
+    "mtime": 1791546645493.093,
+    "hash": "5e20193cec0db54b34c567ab7ccf07eb"
+  },
+  "D:/Project/A.T.L.A.S/test-results/tests-app-acceptance-AppBa-9ffd6-onsive-at-mobile-breakpoint/error-context.md": {
+    "mtime": 1791546645516.6038,
+    "hash": "c858b5d8261431e35e7e3e0341618fd0"
+  },
+  "D:/Project/A.T.L.A.S/test-results/tests-app-acceptance-AppBar-has-proper-width-and-structure/error-context.md": {
+    "mtime": 1791546645522.0005,
+    "hash": "9b10a550afa2ae639fb248d2a83b9afc"
+  },
+  "D:/Project/A.T.L.A.S/test-results/tests-app-acceptance-BookC-0cae4--correctly-with-dummy-books/error-context.md": {
+    "mtime": 1791546645524.0193,
+    "hash": "9db7b365e35c49ad13de3ca29951ed69"
+  },
+  "D:/Project/A.T.L.A.S/test-results/tests-app-acceptance-BookC-20a3d--author-and-status-selector/error-context.md": {
+    "mtime": 1791546645525.0974,
+    "hash": "492a946ba6a65391297ae64f6174425e"
+  },
+  "D:/Project/A.T.L.A.S/test-results/tests-app-acceptance-Searc-aa966-itioned-correctly-in-AppBar/error-context.md": {
+    "mtime": 1791546645526.2192,
+    "hash": "d8c1ca498523ceca29f0c3ebe85bd843"
+  },
+  "D:/Project/A.T.L.A.S/test-results/tests-app-acceptance-Verif-a1a40-ooks-appear-in-each-section/error-context.md": {
+    "mtime": 1791546645528.2383,
+    "hash": "fdfae458e84e211b4efd5f2deffc0617"
+  },
+  "D:/Project/A.T.L.A.S/wireframes/README.md": {
+    "mtime": 1791546645558.8828,
+    "hash": "684eeafb4e5cf2a6d3ca5bf9aa9c3b4a"
+  },
+  "D:/Project/A.T.L.A.S/wireframes/buy-list.md": {
+    "mtime": 1791546645561.0415,
+    "hash": "b9f01da48d8b13a781110961ce05b6ac"
+  },
+  "D:/Project/A.T.L.A.S/wireframes/daily.md": {
+    "mtime": 1791546645565.5059,
+    "hash": "9d3b3560ed326c318045c0662511d842"
+  },
+  "D:/Project/A.T.L.A.S/wireframes/library.md": {
+    "mtime": 1791546645566.8467,
+    "hash": "bcecad6e9f9da228682c41b77dafc65b"
+  },
+  "D:/Project/A.T.L.A.S/wireframes/read-next.md": {
+    "mtime": 1791546645577.414,
+    "hash": "8f54bee5891eaa11b2fab00e47f730cf"
+  },
+  "D:/Project/A.T.L.A.S/wireframes/reading-list.md": {
+    "mtime": 1791546645578.562,
+    "hash": "0279fd08871e7047223ca92dbf4dc933"
+  },
+  "D:/Project/A.T.L.A.S/.planning/audit.md": {
+    "mtime": 1791550357816.1206,
+    "hash": "bb141fa5aadab6d3c13724468a8e40f4"
+  },
+  "D:/Project/A.T.L.A.S/.planning/findings.md": {
+    "mtime": 1791550357818.1138,
+    "hash": "1a9c3b9eaa5c4996a6b49cf05ed32d4d"
+  },
+  "D:/Project/A.T.L.A.S/.planning/progress.md": {
+    "mtime": 1791547777604.9595,
+    "hash": "4f26e71621ad228917ddc4f22df7df60"
+  },
+  "D:/Project/A.T.L.A.S/.planning/task_plan.md": {
+    "mtime": 1791547641499.2473,
+    "hash": "c1b6ad1bd175adb2f4df2220457d6be7"
+  },
+  "D:/Project/A.T.L.A.S/.planning/true_task_plan.md": {
+    "mtime": 1791431032511.8223,
+    "hash": "68b329da9893e34099c7d8ad5cb9c940"
+  }
+}

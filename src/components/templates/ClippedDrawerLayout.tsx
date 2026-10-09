@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, CssBaseline, Toolbar } from "@mui/material";
+import { Box, Toolbar } from "@mui/material";
 import { useState } from "react";
 import { MainAppBar } from "@/components/organisms/MainAppBar";
 import { NavigationDrawer } from "@/components/organisms/NavigationDrawer";
@@ -30,7 +30,6 @@ export function ClippedDrawerLayout({
 
   return (
     <Box sx={{ display: "flex" }}>
-      <CssBaseline />
       <MainAppBar />
       <NavigationDrawer 
         items={navigationItems} 

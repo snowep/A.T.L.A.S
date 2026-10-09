@@ -1,0 +1,2508 @@
+{
+  "nodes": [
+    {
+      "id": "eslint_config",
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "eslint_config_eslintconfig",
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5"
+    },
+    {
+      "id": "jest_config",
+      "label": "jest.config.js",
+      "file_type": "code",
+      "source_file": "jest.config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "jest_setup",
+      "label": "jest.setup.ts",
+      "file_type": "code",
+      "source_file": "jest.setup.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "jest_setup_dom",
+      "label": "dom",
+      "file_type": "code",
+      "source_file": "jest.setup.ts",
+      "source_location": "L10"
+    },
+    {
+      "id": "jest_setup_observe",
+      "label": "observe()",
+      "file_type": "code",
+      "source_file": "jest.setup.ts",
+      "source_location": "L38"
+    },
+    {
+      "id": "jest_setup_unobserve",
+      "label": "unobserve()",
+      "file_type": "code",
+      "source_file": "jest.setup.ts",
+      "source_location": "L42"
+    },
+    {
+      "id": "jest_setup_disconnect",
+      "label": "disconnect()",
+      "file_type": "code",
+      "source_file": "jest.setup.ts",
+      "source_location": "L43"
+    },
+    {
+      "id": "next_config",
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_config_nextconfig",
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "playwright_config",
+      "label": "playwright.config.ts",
+      "file_type": "code",
+      "source_file": "playwright.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "placeholder_book_route",
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/placeholder-book/route.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "placeholder_book_route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "src/app/api/placeholder-book/route.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "app_layout",
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_layout_metadata",
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "app_layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "app_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_page_navigation",
+      "label": "navigation",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "app_page_dashboard",
+      "label": "Dashboard()",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "settings_page",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "settings_page_navigation",
+      "label": "navigation",
+      "file_type": "code",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "settings_page_settings",
+      "label": "Settings()",
+      "file_type": "code",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "components_addbookdialog",
+      "label": "AddBookDialog.tsx",
+      "file_type": "code",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_addbookdialog_addbookdialogprops",
+      "label": "AddBookDialogProps",
+      "file_type": "code",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "components_addbookdialog_addbookdialog",
+      "label": "AddBookDialog()",
+      "file_type": "code",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "components_bookcard",
+      "label": "BookCard.tsx",
+      "file_type": "code",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_bookcard_bookcardprops",
+      "label": "BookCardProps",
+      "file_type": "code",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "components_bookcard_bookcard",
+      "label": "BookCard()",
+      "file_type": "code",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L18"
+    },
+    {
+      "id": "components_booklist",
+      "label": "BookList.tsx",
+      "file_type": "code",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_booklist_booklistprops",
+      "label": "BookListProps",
+      "file_type": "code",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "components_booklist_booklist",
+      "label": "BookList()",
+      "file_type": "code",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "components_featuredbookstrip",
+      "label": "FeaturedBookStrip.tsx",
+      "file_type": "code",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_featuredbookstrip_featuredbookstripprops",
+      "label": "FeaturedBookStripProps",
+      "file_type": "code",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "components_featuredbookstrip_featuredbookstrip",
+      "label": "FeaturedBookStrip()",
+      "file_type": "code",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "components_themeprovider",
+      "label": "ThemeProvider.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_themeprovider_createemotioncache",
+      "label": "createEmotionCache()",
+      "file_type": "code",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "components_themeprovider_colorschemecontextprovider",
+      "label": "ColorSchemeContextProvider()",
+      "file_type": "code",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L16"
+    },
+    {
+      "id": "components_themeprovider_themeprovider",
+      "label": "ThemeProvider()",
+      "file_type": "code",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L25"
+    },
+    {
+      "id": "atoms_appbartitle",
+      "label": "AppBarTitle.tsx",
+      "file_type": "code",
+      "source_file": "src/components/atoms/AppBarTitle.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "atoms_appbartitle_appbartitle",
+      "label": "AppBarTitle()",
+      "file_type": "code",
+      "source_file": "src/components/atoms/AppBarTitle.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "atoms_bookauthor",
+      "label": "BookAuthor.tsx",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookAuthor.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "atoms_bookauthor_bookauthorprops",
+      "label": "BookAuthorProps",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookAuthor.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "atoms_bookauthor_bookauthor",
+      "label": "BookAuthor()",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookAuthor.tsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "atoms_bookcover",
+      "label": "BookCover.tsx",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookCover.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "atoms_bookcover_bookcoverprops",
+      "label": "BookCoverProps",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookCover.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "atoms_bookcover_bookcover",
+      "label": "BookCover()",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookCover.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "atoms_bookmeta",
+      "label": "BookMeta.tsx",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookMeta.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "atoms_bookmeta_bookmetaprops",
+      "label": "BookMetaProps",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookMeta.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "atoms_bookmeta_bookmeta",
+      "label": "BookMeta()",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookMeta.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "atoms_booktitle",
+      "label": "BookTitle.tsx",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookTitle.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "atoms_booktitle_booktitleprops",
+      "label": "BookTitleProps",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookTitle.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "atoms_booktitle_booktitle",
+      "label": "BookTitle()",
+      "file_type": "code",
+      "source_file": "src/components/atoms/BookTitle.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "atoms_navicon",
+      "label": "NavIcon.tsx",
+      "file_type": "code",
+      "source_file": "src/components/atoms/NavIcon.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "atoms_navicon_naviconprops",
+      "label": "NavIconProps",
+      "file_type": "code",
+      "source_file": "src/components/atoms/NavIcon.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "atoms_navicon_navicon",
+      "label": "NavIcon()",
+      "file_type": "code",
+      "source_file": "src/components/atoms/NavIcon.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "atoms_searchbox",
+      "label": "SearchBox.tsx",
+      "file_type": "code",
+      "source_file": "src/components/atoms/SearchBox.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "atoms_searchbox_searchbox",
+      "label": "SearchBox()",
+      "file_type": "code",
+      "source_file": "src/components/atoms/SearchBox.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "atoms_themetogglebutton",
+      "label": "ThemeToggleButton.tsx",
+      "file_type": "code",
+      "source_file": "src/components/atoms/ThemeToggleButton.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "atoms_themetogglebutton_themetogglebutton",
+      "label": "ThemeToggleButton()",
+      "file_type": "code",
+      "source_file": "src/components/atoms/ThemeToggleButton.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "molecules_bookremovebutton",
+      "label": "BookRemoveButton.tsx",
+      "file_type": "code",
+      "source_file": "src/components/molecules/BookRemoveButton.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "molecules_bookremovebutton_bookremovebuttonprops",
+      "label": "BookRemoveButtonProps",
+      "file_type": "code",
+      "source_file": "src/components/molecules/BookRemoveButton.tsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "molecules_bookremovebutton_bookremovebutton",
+      "label": "BookRemoveButton()",
+      "file_type": "code",
+      "source_file": "src/components/molecules/BookRemoveButton.tsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "molecules_bookstatusselector",
+      "label": "BookStatusSelector.tsx",
+      "file_type": "code",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "molecules_bookstatusselector_bookstatusselectorprops",
+      "label": "BookStatusSelectorProps",
+      "file_type": "code",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "molecules_bookstatusselector_statusoptions",
+      "label": "statusOptions",
+      "file_type": "code",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "molecules_bookstatusselector_bookstatusselector",
+      "label": "BookStatusSelector()",
+      "file_type": "code",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L20"
+    },
+    {
+      "id": "molecules_navitem",
+      "label": "NavItem.tsx",
+      "file_type": "code",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "molecules_navitem_navitemprops",
+      "label": "NavItemProps",
+      "file_type": "code",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "molecules_navitem_navitem",
+      "label": "NavItem()",
+      "file_type": "code",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "organisms_mainappbar",
+      "label": "MainAppBar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "organisms_mainappbar_mainappbar",
+      "label": "MainAppBar()",
+      "file_type": "code",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "organisms_navigationdrawer",
+      "label": "NavigationDrawer.tsx",
+      "file_type": "code",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "organisms_navigationdrawer_navigationitem",
+      "label": "NavigationItem",
+      "file_type": "code",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "organisms_navigationdrawer_navigationdrawerprops",
+      "label": "NavigationDrawerProps",
+      "file_type": "code",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "organisms_navigationdrawer_navigationdrawer",
+      "label": "NavigationDrawer()",
+      "file_type": "code",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L20"
+    },
+    {
+      "id": "templates_clippeddrawerlayout",
+      "label": "ClippedDrawerLayout.tsx",
+      "file_type": "code",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "templates_clippeddrawerlayout_navigationitem",
+      "label": "NavigationItem",
+      "file_type": "code",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "templates_clippeddrawerlayout_clippeddrawerlayoutprops",
+      "label": "ClippedDrawerLayoutProps",
+      "file_type": "code",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "templates_clippeddrawerlayout_clippeddrawerlayout",
+      "label": "ClippedDrawerLayout()",
+      "file_type": "code",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L20"
+    },
+    {
+      "id": "lib_bookdata",
+      "label": "bookData.ts",
+      "file_type": "code",
+      "source_file": "src/lib/bookData.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_bookdata_book",
+      "label": "Book",
+      "file_type": "code",
+      "source_file": "src/lib/bookData.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_bookdata_placeholderbooks",
+      "label": "placeholderBooks",
+      "file_type": "code",
+      "source_file": "src/lib/bookData.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "lib_db",
+      "label": "db.ts",
+      "file_type": "code",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_db_db_dir",
+      "label": "DB_DIR",
+      "file_type": "code",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_db_db_path",
+      "label": "DB_PATH",
+      "file_type": "code",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "lib_db_db",
+      "label": "db",
+      "file_type": "code",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L13"
+    },
+    {
+      "id": "lib_db_getdb",
+      "label": "getDb()",
+      "file_type": "code",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L23"
+    },
+    {
+      "id": "lib_db_closedb",
+      "label": "closeDb()",
+      "file_type": "code",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L27"
+    },
+    {
+      "id": "theme_lineartheme",
+      "label": "linearTheme.ts",
+      "file_type": "code",
+      "source_file": "src/theme/linearTheme.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "theme_lineartheme_lineartheme",
+      "label": "linearTheme",
+      "file_type": "code",
+      "source_file": "src/theme/linearTheme.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "theme_m3_d",
+      "label": "m3.d.ts",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "theme_m3_d_mui_material_styles",
+      "label": "@mui/material/styles",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "theme_m3_d_palette",
+      "label": "Palette",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "theme_m3_d_paletteoptions",
+      "label": "PaletteOptions",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L47"
+    },
+    {
+      "id": "theme_m3_d_shape",
+      "label": "Shape",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L87"
+    },
+    {
+      "id": "theme_m3_d_typographyvariants",
+      "label": "TypographyVariants",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L95"
+    },
+    {
+      "id": "theme_m3_d_typographyvariantsoptions",
+      "label": "TypographyVariantsOptions",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L113"
+    },
+    {
+      "id": "theme_m3_d_mui_material_button",
+      "label": "@mui/material/Button",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L132"
+    },
+    {
+      "id": "theme_m3_d_buttonpropsvariantoverrides",
+      "label": "ButtonPropsVariantOverrides",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L133"
+    },
+    {
+      "id": "theme_m3_d_mui_material_alert",
+      "label": "@mui/material/Alert",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L138"
+    },
+    {
+      "id": "theme_m3_d_alertpropsvariantoverrides",
+      "label": "AlertPropsVariantOverrides",
+      "file_type": "code",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L139"
+    },
+    {
+      "id": "theme_material3theme",
+      "label": "material3Theme.ts",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "theme_material3theme_generatetonalpalette",
+      "label": "generateTonalPalette()",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "theme_material3theme_lightprimary",
+      "label": "lightPrimary",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L28"
+    },
+    {
+      "id": "theme_material3theme_lightsecondary",
+      "label": "lightSecondary",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L29"
+    },
+    {
+      "id": "theme_material3theme_lighttertiary",
+      "label": "lightTertiary",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L30"
+    },
+    {
+      "id": "theme_material3theme_lighterror",
+      "label": "lightError",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L31"
+    },
+    {
+      "id": "theme_material3theme_darkprimary",
+      "label": "darkPrimary",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L34"
+    },
+    {
+      "id": "theme_material3theme_darksecondary",
+      "label": "darkSecondary",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L35"
+    },
+    {
+      "id": "theme_material3theme_darktertiary",
+      "label": "darkTertiary",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L36"
+    },
+    {
+      "id": "theme_material3theme_darkerror",
+      "label": "darkError",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L37"
+    },
+    {
+      "id": "theme_material3theme_darksurface",
+      "label": "darkSurface",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L38"
+    },
+    {
+      "id": "theme_material3theme_material3theme",
+      "label": "material3Theme",
+      "file_type": "code",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L41"
+    },
+    {
+      "id": "tests_app_acceptance_test",
+      "label": "app-acceptance.test.ts",
+      "file_type": "code",
+      "source_file": "tests/app-acceptance.test.ts",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "eslint_config",
+      "target": "ref_eslint_config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "eslint_config",
+      "target": "ref_eslint_config_next_core_web_vitals",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "eslint_config",
+      "target": "ref_eslint_config_next_typescript",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "eslint_config",
+      "target": "eslint_config_eslintconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "jest_setup",
+      "target": "ref_jsdom",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "jest.setup.ts",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "jest_setup",
+      "target": "jest_setup_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jest.setup.ts",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "jest_setup",
+      "target": "jest_setup_observe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jest.setup.ts",
+      "source_location": "L38",
+      "weight": 1
+    },
+    {
+      "source": "jest_setup",
+      "target": "jest_setup_unobserve",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jest.setup.ts",
+      "source_location": "L42",
+      "weight": 1
+    },
+    {
+      "source": "jest_setup",
+      "target": "jest_setup_disconnect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jest.setup.ts",
+      "source_location": "L43",
+      "weight": 1
+    },
+    {
+      "source": "next_config",
+      "target": "ref_next",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "next_config",
+      "target": "next_config_nextconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "placeholder_book_route",
+      "target": "ref_next_server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/placeholder-book/route.ts",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "placeholder_book_route",
+      "target": "placeholder_book_route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/placeholder-book/route.ts",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "app_layout",
+      "target": "components_themeprovider",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "app_layout",
+      "target": "app_layout_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "app_layout",
+      "target": "app_layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "templates_clippeddrawerlayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "templates_clippeddrawerlayout_clippeddrawerlayout",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "ref_mui_icons_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "ref_mui_icons_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "lib_bookdata",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "lib_bookdata_book",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "lib_bookdata",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "lib_bookdata_placeholderbooks",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "components_addbookdialog",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "components_featuredbookstrip",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "app_page_navigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L14",
+      "weight": 1
+    },
+    {
+      "source": "app_page",
+      "target": "app_page_dashboard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L19",
+      "weight": 1
+    },
+    {
+      "source": "settings_page",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "settings_page",
+      "target": "templates_clippeddrawerlayout",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "settings_page",
+      "target": "templates_clippeddrawerlayout_clippeddrawerlayout",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "settings_page",
+      "target": "ref_mui_icons_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "settings_page",
+      "target": "settings_page_navigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "settings_page",
+      "target": "settings_page_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/settings/page.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "components_addbookdialog",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_addbookdialog",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "components_addbookdialog",
+      "target": "lib_bookdata",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_addbookdialog",
+      "target": "lib_bookdata_book",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_addbookdialog",
+      "target": "components_addbookdialog_addbookdialogprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "components_addbookdialog",
+      "target": "components_addbookdialog_addbookdialog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AddBookDialog.tsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "lib_bookdata",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "lib_bookdata_book",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "atoms_bookcover",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "atoms_bookcover_bookcover",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "atoms_booktitle",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "atoms_booktitle_booktitle",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "atoms_bookauthor",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "atoms_bookauthor_bookauthor",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "atoms_bookmeta",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "atoms_bookmeta_bookmeta",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "molecules_bookstatusselector",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "molecules_bookstatusselector_bookstatusselector",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "molecules_bookremovebutton",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "molecules_bookremovebutton_bookremovebutton",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "components_bookcard_bookcardprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "components_bookcard",
+      "target": "components_bookcard_bookcard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookCard.tsx",
+      "source_location": "L18",
+      "weight": 1
+    },
+    {
+      "source": "components_booklist",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_booklist",
+      "target": "components_bookcard",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "components_booklist",
+      "target": "lib_bookdata",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_booklist",
+      "target": "lib_bookdata_book",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_booklist",
+      "target": "components_booklist_booklistprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "components_booklist",
+      "target": "components_booklist_booklist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/BookList.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "lib_bookdata",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "lib_bookdata_book",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "atoms_bookcover",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "atoms_bookcover_bookcover",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "atoms_booktitle",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "atoms_booktitle_booktitle",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "atoms_bookauthor",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "atoms_bookauthor_bookauthor",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "components_featuredbookstrip_featuredbookstripprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "components_featuredbookstrip",
+      "target": "components_featuredbookstrip_featuredbookstrip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/FeaturedBookStrip.tsx",
+      "source_location": "L15",
+      "weight": 1
+    },
+    {
+      "source": "components_themeprovider",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_themeprovider",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "components_themeprovider",
+      "target": "ref_emotion_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "components_themeprovider",
+      "target": "ref_emotion_cache",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "components_themeprovider",
+      "target": "theme_material3theme",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "components_themeprovider",
+      "target": "components_themeprovider_createemotioncache",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "components_themeprovider",
+      "target": "components_themeprovider_colorschemecontextprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L16",
+      "weight": 1
+    },
+    {
+      "source": "components_themeprovider",
+      "target": "components_themeprovider_themeprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ThemeProvider.tsx",
+      "source_location": "L25",
+      "weight": 1
+    },
+    {
+      "source": "atoms_appbartitle",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/AppBarTitle.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "atoms_appbartitle",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/AppBarTitle.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "atoms_appbartitle",
+      "target": "atoms_appbartitle_appbartitle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/AppBarTitle.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookauthor",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookAuthor.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookauthor",
+      "target": "atoms_bookauthor_bookauthorprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookAuthor.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookauthor",
+      "target": "atoms_bookauthor_bookauthor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookAuthor.tsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookcover",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookCover.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookcover",
+      "target": "lib_bookdata",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookCover.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookcover",
+      "target": "lib_bookdata_book",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookCover.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookcover",
+      "target": "atoms_bookcover_bookcoverprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookCover.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookcover",
+      "target": "atoms_bookcover_bookcover",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookCover.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookmeta",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookMeta.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookmeta",
+      "target": "atoms_bookmeta_bookmetaprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookMeta.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "atoms_bookmeta",
+      "target": "atoms_bookmeta_bookmeta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookMeta.tsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "atoms_booktitle",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookTitle.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "atoms_booktitle",
+      "target": "atoms_booktitle_booktitleprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookTitle.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "atoms_booktitle",
+      "target": "atoms_booktitle_booktitle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/BookTitle.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "atoms_navicon",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/NavIcon.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "atoms_navicon",
+      "target": "atoms_navicon_naviconprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/NavIcon.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "atoms_navicon",
+      "target": "atoms_navicon_navicon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/NavIcon.tsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "atoms_searchbox",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/SearchBox.tsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "atoms_searchbox",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/SearchBox.tsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "atoms_searchbox",
+      "target": "atoms_searchbox_searchbox",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/SearchBox.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "atoms_themetogglebutton",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/ThemeToggleButton.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "atoms_themetogglebutton",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/ThemeToggleButton.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "atoms_themetogglebutton",
+      "target": "ref_mui_icons_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/ThemeToggleButton.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "atoms_themetogglebutton",
+      "target": "atoms_themetogglebutton_themetogglebutton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/atoms/ThemeToggleButton.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookremovebutton",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookRemoveButton.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookremovebutton",
+      "target": "molecules_bookremovebutton_bookremovebuttonprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookRemoveButton.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookremovebutton",
+      "target": "molecules_bookremovebutton_bookremovebutton",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookRemoveButton.tsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookstatusselector",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookstatusselector",
+      "target": "lib_bookdata",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookstatusselector",
+      "target": "lib_bookdata_book",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookstatusselector",
+      "target": "molecules_bookstatusselector_bookstatusselectorprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookstatusselector",
+      "target": "molecules_bookstatusselector_statusoptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "molecules_bookstatusselector",
+      "target": "molecules_bookstatusselector_bookstatusselector",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/BookStatusSelector.tsx",
+      "source_location": "L20",
+      "weight": 1
+    },
+    {
+      "source": "molecules_navitem",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "molecules_navitem",
+      "target": "ref_next_link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "molecules_navitem",
+      "target": "atoms_navicon",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "molecules_navitem",
+      "target": "atoms_navicon_navicon",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "molecules_navitem",
+      "target": "molecules_navitem_navitemprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "molecules_navitem",
+      "target": "molecules_navitem_navitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/molecules/NavItem.tsx",
+      "source_location": "L13",
+      "weight": 1
+    },
+    {
+      "source": "organisms_mainappbar",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "organisms_mainappbar",
+      "target": "atoms_appbartitle",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "organisms_mainappbar",
+      "target": "atoms_appbartitle_appbartitle",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "organisms_mainappbar",
+      "target": "atoms_themetogglebutton",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "organisms_mainappbar",
+      "target": "atoms_themetogglebutton_themetogglebutton",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "organisms_mainappbar",
+      "target": "atoms_searchbox",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "organisms_mainappbar",
+      "target": "atoms_searchbox_searchbox",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "organisms_mainappbar",
+      "target": "organisms_mainappbar_mainappbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/MainAppBar.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "organisms_navigationdrawer",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "organisms_navigationdrawer",
+      "target": "molecules_navitem",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "organisms_navigationdrawer",
+      "target": "molecules_navitem_navitem",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "organisms_navigationdrawer",
+      "target": "organisms_navigationdrawer_navigationitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "organisms_navigationdrawer",
+      "target": "organisms_navigationdrawer_navigationdrawerprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "organisms_navigationdrawer",
+      "target": "organisms_navigationdrawer_navigationdrawer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/organisms/NavigationDrawer.tsx",
+      "source_location": "L20",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "organisms_mainappbar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "organisms_mainappbar_mainappbar",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "organisms_navigationdrawer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "organisms_navigationdrawer_navigationdrawer",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "templates_clippeddrawerlayout_navigationitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "templates_clippeddrawerlayout_clippeddrawerlayoutprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L14",
+      "weight": 1
+    },
+    {
+      "source": "templates_clippeddrawerlayout",
+      "target": "templates_clippeddrawerlayout_clippeddrawerlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/templates/ClippedDrawerLayout.tsx",
+      "source_location": "L20",
+      "weight": 1
+    },
+    {
+      "source": "lib_bookdata",
+      "target": "lib_bookdata_book",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/bookData.ts",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "lib_bookdata",
+      "target": "lib_bookdata_placeholderbooks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/bookData.ts",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "ref_server_only",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "ref_better_sqlite3",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "ref_path",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "ref_fs",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "lib_db_db_dir",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "lib_db_db_path",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "lib_db_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L13",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "lib_db_getdb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L23",
+      "weight": 1
+    },
+    {
+      "source": "lib_db",
+      "target": "lib_db_closedb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db.ts",
+      "source_location": "L27",
+      "weight": 1
+    },
+    {
+      "source": "theme_lineartheme",
+      "target": "ref_mui_material_styles",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/linearTheme.ts",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "theme_lineartheme",
+      "target": "theme_lineartheme_lineartheme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/linearTheme.ts",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "ref_mui_material_styles",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "ref_mui_material_alert",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "ref_mui_material_button",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "ref_mui_material_typography",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_mui_material_styles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_palette",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_paletteoptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L47",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_shape",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L87",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_typographyvariants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L95",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_typographyvariantsoptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L113",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_mui_material_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L132",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_buttonpropsvariantoverrides",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L133",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_mui_material_alert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L138",
+      "weight": 1
+    },
+    {
+      "source": "theme_m3_d",
+      "target": "theme_m3_d_alertpropsvariantoverrides",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/m3.d.ts",
+      "source_location": "L139",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "ref_mui_material_styles",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_generatetonalpalette",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_lightprimary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L28",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_lightsecondary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L29",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_lighttertiary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L30",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_lighterror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L31",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_darkprimary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L34",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_darksecondary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L35",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_darktertiary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L36",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_darkerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L37",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_darksurface",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L38",
+      "weight": 1
+    },
+    {
+      "source": "theme_material3theme",
+      "target": "theme_material3theme_material3theme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/theme/material3Theme.ts",
+      "source_location": "L41",
+      "weight": 1
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "hyperedges": []
+}

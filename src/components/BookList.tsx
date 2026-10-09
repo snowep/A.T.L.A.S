@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import BookCard from "@/components/BookCard";
 import { Book } from "@/lib/bookData";
 
@@ -30,13 +30,27 @@ export default function BookList({
       <Typography variant="h5" color="text.primary" gutterBottom>
         {title}
       </Typography>
-      <Grid container spacing={2}>
+      <Box
+        sx={{
+          display: 'flex',
+          gap: 2,
+          overflowX: 'auto',
+          pb: 1, // space for scrollbar
+          '::-webkit-scrollbar': { height: 8 },
+          '::-webkit-scrollbar-track': { background: 'transparent' },
+          '::-webkit-scrollbar-thumb': { 
+            backgroundColor: 'divider',
+            borderRadius: 4,
+            '&:hover': { backgroundColor: 'text.secondary' }
+          },
+        }}
+      >
         {books.map((b) => (
-          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }} key={b.id}>
+          <Box key={b.id} sx={{ minWidth: 280, flexShrink: 0 }}>
             <BookCard book={b} onRemove={onRemove} onStatusChange={onStatusChange} />
-          </Grid>
+          </Box>
         ))}
-      </Grid>
+      </Box>
     </Box>
   );
 }

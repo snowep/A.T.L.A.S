@@ -1,6 +1,5 @@
 import * as React from "react";
-import { Box, Button, TextField, FormControl, InputLabel, Select, MenuItem, Stack, CircularProgress, Dialog, DialogTitle, DialogContent, DialogActions, Fab } from "@mui/material";
-import { Add as AddIcon } from "@mui/icons-material";
+import { Button, TextField, FormControl, InputLabel, Select, MenuItem, Stack, CircularProgress, Dialog, DialogTitle, DialogContent, DialogActions } from "@mui/material";
 import { Book } from "@/lib/bookData";
 
 interface AddBookDialogProps {

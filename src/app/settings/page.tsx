@@ -2,7 +2,7 @@
 
 import { Typography } from "@mui/material";
 import { ClippedDrawerLayout } from "@/components/templates/ClippedDrawerLayout";
-import { Home as HomeIcon, Dashboard as DashboardIcon, Settings as SettingsIcon } from "@mui/icons-material";
+import { Dashboard as DashboardIcon, Settings as SettingsIcon } from "@mui/icons-material";
 
 const navigation = [
   { label: "Dashboard", icon: <DashboardIcon />, href: "/" },

@@ -5,9 +5,8 @@
 (globalThis.TextEncoder = globalThis.TextEncoder || function() {}).prototype.encode = function() { return new Uint8Array(); };
 (globalThis.TextDecoder = globalThis.TextDecoder || function() {}).prototype.decode = function() { return ''; };
 
-const { JSDOM } = require('jsdom');
+import { JSDOM } from 'jsdom';
 
-// Set up JSDOM with the document from the test environment
 const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>', {
   runScripts: 'dangerously',
   resources: 'usable',
@@ -31,7 +30,7 @@ globalThis.matchMedia = globalThis.matchMedia || function () {
 // Mock ResizeObserver
 global.ResizeObserver = class ResizeObserver {
   callback = (entries) => {
-    for (let entry of entries) {
+      for (const entry of entries) {
       entry.target._resizeObserverLastHeight = entry.target.offsetHeight;
       entry.target._resizeObserverLastWidth = entry.target.offsetWidth;
     }

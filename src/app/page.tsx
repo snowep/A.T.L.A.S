@@ -1,15 +1,17 @@
 "use client";
 
-import { useState } from "react";
-import { ClippedDrawerLayout } from "@/components/templates/ClippedDrawerLayout";
-import { Dashboard as DashboardIcon, Settings as SettingsIcon } from "@mui/icons-material";
 import { Box } from "@mui/material";
+import { useState } from "react";
+import { useTheme } from "@mui/material";
+import { Dashboard as DashboardIcon, Settings as SettingsIcon } from "@mui/icons-material";
 import { Add as AddIcon } from "@mui/icons-material";
 import { Fab } from "@mui/material";
+import { ClippedDrawerLayout } from "@/components/templates/ClippedDrawerLayout";
+import { AddBookDialog } from "@/components/AddBookDialog";
+import { FeaturedBookStrip } from "@/components/FeaturedBookStrip";
+import { BookListGrid } from "@/components/BookListGrid";
 import { Book } from "@/lib/bookData";
 import { placeholderBooks } from "@/lib/bookData";
-import AddBookDialog from "@/components/AddBookDialog";
-import FeaturedBookStrip from "@/components/FeaturedBookStrip";
 
 const navigation = [
   { label: "Dashboard", icon: <DashboardIcon />, href: "/" },
@@ -19,6 +21,7 @@ const navigation = [
 export default function Dashboard() {
   const [books, setBooks] = useState<Book[]>(placeholderBooks);
   const [addDialogOpen, setAddDialogOpen] = useState(false);
+  const theme = useTheme();
 
   const handleAddBook = (newBook: Omit<Book, 'id' | 'dateAdded'>) => {
     const bookWithId: Book = {
@@ -41,7 +44,11 @@ export default function Dashboard() {
 
   return (
     <ClippedDrawerLayout navigationItems={navigation}>
-      <Box sx={{ p: 4 }}>
+      <Box sx={{ 
+        p: { xs: 2, md: 4 },
+        backgroundColor: '#08090a',
+        minHeight: '100vh',
+      }}>
         <AddBookDialog
           open={addDialogOpen}
           onClose={() => setAddDialogOpen(false)}
@@ -51,52 +58,78 @@ export default function Dashboard() {
           color="primary"
           aria-label="Add book"
           onClick={() => setAddDialogOpen(true)}
-          sx={{ position: 'fixed', bottom: 24, right: 24, zIndex: 1300 }}
+          sx={{ 
+            position: 'fixed', 
+            bottom: 24, 
+            right: 24, 
+            zIndex: 1300,
+            minWidth: 56,
+            minHeight: 56,
+          }}
         >
           <AddIcon />
         </Fab>
 
-        {/* Featured Book Strip - Top Picks This Week */}
-        <FeaturedBookStrip
-          books={allBooks}
-          title="Top Picks This Week"
-          subtitle="Your personalized recommendations"
-        />
+        <Box sx={{ 
+          maxWidth: 1200, 
+          mx: 'auto',
+          '& h5': {
+            fontFamily: theme.typography.fontFamily,
+            fontWeight: 510,
+            letterSpacing: '-0.5px',
+          }
+        }}>
+          <FeaturedBookStrip
+            books={allBooks}
+            title="Top Picks This Week"
+            subtitle="Your personalized recommendations"
+          />
 
-        {/* Daily Books */}
-        <FeaturedBookStrip
-          books={dailyBooks}
-          title="Daily Books"
-          subtitle="Books for today"
-        />
+          <BookListGrid
+            books={dailyBooks}
+            title="Daily Books"
+            subtitle="Books for today"
+            onStatusChange={(id: string, status: Book['status']) => {
+              setBooks(prev => prev.map(b => b.id === id ? { ...b, status } : b));
+            }}
+          />
 
-        {/* Library */}
-        <FeaturedBookStrip
-          books={libraryBooks}
-          title="Library"
-          subtitle="All your books"
-        />
+          <BookListGrid
+            books={libraryBooks}
+            title="Library"
+            subtitle="All your books"
+            onStatusChange={(id: string, status: Book['status']) => {
+              setBooks(prev => prev.map(b => b.id === id ? { ...b, status } : b));
+            }}
+          />
 
-        {/* Reading List */}
-        <FeaturedBookStrip
-          books={readingListBooks}
-          title="Reading List"
-          subtitle="Books you're currently reading"
-        />
+          <BookListGrid
+            books={readingListBooks}
+            title="Reading List"
+            subtitle="Books you're currently reading"
+            onStatusChange={(id: string, status: Book['status']) => {
+              setBooks(prev => prev.map(b => b.id === id ? { ...b, status } : b));
+            }}
+          />
 
-        {/* Buy List */}
-        <FeaturedBookStrip
-          books={buyListBooks}
-          title="Buy List"
-          subtitle="Books to purchase"
-        />
+          <BookListGrid
+            books={buyListBooks}
+            title="Buy List"
+            subtitle="Books to purchase"
+            onStatusChange={(id: string, status: Book['status']) => {
+              setBooks(prev => prev.map(b => b.id === id ? { ...b, status } : b));
+            }}
+          />
 
-        {/* Read Next */}
-        <FeaturedBookStrip
-          books={readNextBooks}
-          title="Read Next"
-          subtitle="Your reading queue"
-        />
+          <BookListGrid
+            books={readNextBooks}
+            title="Read Next"
+            subtitle="Your reading queue"
+            onStatusChange={(id: string, status: Book['status']) => {
+              setBooks(prev => prev.map(b => b.id === id ? { ...b, status } : b));
+            }}
+          />
+        </Box>
       </Box>
     </ClippedDrawerLayout>
   );
