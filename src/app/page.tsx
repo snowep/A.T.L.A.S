@@ -2,18 +2,18 @@
 
 import { useState } from "react";
 import { ClippedDrawerLayout } from "@/components/templates/ClippedDrawerLayout";
-import { Home as HomeIcon, Dashboard as DashboardIcon, Settings as SettingsIcon } from "@mui/icons-material";
+import { Dashboard as DashboardIcon, Settings as SettingsIcon } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import { Add as AddIcon } from "@mui/icons-material";
 import { Fab } from "@mui/material";
 import { Book } from "@/lib/bookData";
 import { placeholderBooks } from "@/lib/bookData";
-import BookList from "@/components/BookList";
 import AddBookDialog from "@/components/AddBookDialog";
+import FeaturedBookStrip from "@/components/FeaturedBookStrip";
 
 const navigation = [
-{ label: "Dashboard", icon: <DashboardIcon />, href: "/" },
-{ label: "Settings", icon: <SettingsIcon />, href: "/settings" },
+  { label: "Dashboard", icon: <DashboardIcon />, href: "/" },
+  { label: "Settings", icon: <SettingsIcon />, href: "/settings" },
 ];
 
 export default function Dashboard() {
@@ -29,18 +29,6 @@ export default function Dashboard() {
     setBooks(prev => [...prev, bookWithId]);
   };
 
-  const handleRemoveBook = (id: string) => {
-    setBooks(prev => prev.filter(book => book.id !== id));
-  };
-
-  const handleStatusChange = (id: string, newStatus: Book['status']) => {
-    setBooks(prev => 
-      prev.map(book => 
-        book.id === id ? { ...book, status: newStatus } : book
-      )
-    );
-  };
-
   // Filter books by status
   const dailyBooks = books.filter(book => book.status === 'daily');
   const libraryBooks = books.filter(book => book.status === 'library');
@@ -48,13 +36,16 @@ export default function Dashboard() {
   const buyListBooks = books.filter(book => book.status === 'buy-list');
   const readNextBooks = books.filter(book => book.status === 'read-next');
 
+  // All books for featured strip
+  const allBooks = books;
+
   return (
     <ClippedDrawerLayout navigationItems={navigation}>
       <Box sx={{ p: 4 }}>
-        <AddBookDialog 
-          open={addDialogOpen} 
-          onClose={() => setAddDialogOpen(false)} 
-          onAdd={handleAddBook} 
+        <AddBookDialog
+          open={addDialogOpen}
+          onClose={() => setAddDialogOpen(false)}
+          onAdd={handleAddBook}
         />
         <Fab
           color="primary"
@@ -65,44 +56,46 @@ export default function Dashboard() {
           <AddIcon />
         </Fab>
 
+        {/* Featured Book Strip - Top Picks This Week */}
+        <FeaturedBookStrip
+          books={allBooks}
+          title="Top Picks This Week"
+          subtitle="Your personalized recommendations"
+        />
+
         {/* Daily Books */}
-        <BookList 
-          title="Daily Books" 
-          books={dailyBooks} 
-          onRemove={handleRemoveBook}
-          onStatusChange={handleStatusChange}
+        <FeaturedBookStrip
+          books={dailyBooks}
+          title="Daily Books"
+          subtitle="Books for today"
         />
-        
+
         {/* Library */}
-        <BookList 
-          title="Library" 
-          books={libraryBooks} 
-          onRemove={handleRemoveBook}
-          onStatusChange={handleStatusChange}
+        <FeaturedBookStrip
+          books={libraryBooks}
+          title="Library"
+          subtitle="All your books"
         />
-        
+
         {/* Reading List */}
-        <BookList 
-          title="Reading List" 
-          books={readingListBooks} 
-          onRemove={handleRemoveBook}
-          onStatusChange={handleStatusChange}
+        <FeaturedBookStrip
+          books={readingListBooks}
+          title="Reading List"
+          subtitle="Books you're currently reading"
         />
-        
+
         {/* Buy List */}
-        <BookList 
-          title="Buy List" 
-          books={buyListBooks} 
-          onRemove={handleRemoveBook}
-          onStatusChange={handleStatusChange}
+        <FeaturedBookStrip
+          books={buyListBooks}
+          title="Buy List"
+          subtitle="Books to purchase"
         />
-        
+
         {/* Read Next */}
-        <BookList 
-          title="Read Next" 
-          books={readNextBooks} 
-          onRemove={handleRemoveBook}
-          onStatusChange={handleStatusChange}
+        <FeaturedBookStrip
+          books={readNextBooks}
+          title="Read Next"
+          subtitle="Your reading queue"
         />
       </Box>
     </ClippedDrawerLayout>
