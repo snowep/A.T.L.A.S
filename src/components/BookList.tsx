@@ -32,8 +32,7 @@ export default function BookList({
       </Typography>
       <Grid container spacing={2}>
         {books.map((b) => (
-          // @ts-expect-error Grid item prop type conflict in MUI v9
-          <Grid item xs={12} sm={6} md={4} lg={3} key={b.id}>
+          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }} key={b.id}>
             <BookCard book={b} onRemove={onRemove} onStatusChange={onStatusChange} />
           </Grid>
         ))}
