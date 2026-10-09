@@ -39,7 +39,7 @@ export default function FeaturedBookStrip({ books, title = "Top Picks", subtitle
           )}
         </Box>
       )}
-      <Box sx={{ display: "flex", gap: 2, overflowX: "auto", pb: 1, px: { xs: 1, md: 0 } }}>
+      <Box sx={{ display: "flex", flexWrap: "wrap", gap: 2, pb: 1, px: { xs: 1, md: 0 } }}>
         {books.slice(0, 10).map((book, index) => (
           <Box key={book.id} sx={{ flexShrink: 0, width: 160, display: "flex", flexDirection: "column", gap: 1 }}>
             {/* Rank Badge */}
