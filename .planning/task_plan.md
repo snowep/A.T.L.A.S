@@ -42,5 +42,9 @@ Implement a book showcase dashboard with MUI appbar "A.T.L.A.S." title, book cov
 - [x] Phase F3: Add getCoverColor helper for dynamic cover colors
 - [x] Phase F4: Remove unused handlers, clean up page.tsx
 
+## Nav Drawer Revert (NEW)
+- [x] Phase R1: Revert NavItem to show labels (not icon-only)
+- [x] Phase R2: Restore NavigationDrawer width to 240px default
+
 ## Next Step
 All phases complete. Both branches ready for review.
