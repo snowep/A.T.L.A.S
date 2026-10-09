@@ -1,7 +1,6 @@
 "use client";
 
 import { Box, Fade, Typography } from "@mui/material";
-import { useState } from "react";
 
 interface EmptyStateProps {
   title: string;
@@ -20,7 +19,7 @@ export default function EmptyState({
 }: EmptyStateProps) {
 
   return (
-    <Fade in={mounted} timeout={400}>
+    <Fade in={true} timeout={400}>
       <Box sx={{
         display: 'flex',
         flexDirection: 'column',
