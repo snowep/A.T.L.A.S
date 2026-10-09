@@ -66,6 +66,12 @@
 ▢ Touch targets 40-44px minimum where possible
 ▢ Reduced-motion preferences respected
 
+## Nav Drawer Revert (COMPLETED)
+✅ Reverted NavItem to show labels with icons (default clipped drawer style)
+✅ Restored NavigationDrawer width to 240px default
+✅ Removed icon-only tooltip design
+✅ Maintained active state styling and hover/focus effects
+
 ## Key Principles Applied
 ✅ Clean, editorial, lightweight, welcoming mood
 ✅ Content-first approach with clear visual hierarchy
