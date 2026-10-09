@@ -29,5 +29,10 @@ Implement a book showcase dashboard with MUI appbar "A.T.L.A.S." title, book cov
 - [x] Phase A7: Refactor BookCard to use atomic components
 - [x] Phase A8: FeaturedBookStrip reuses BookCover, BookTitle, BookAuthor atoms
 
+## Front Page Atomic Design (NEW)
+- [x] Phase F1: Refactor FeaturedBookStrip to use BookCover, BookTitle, BookAuthor atoms
+- [x] Phase F2: Remove duplicate getCoverColor, CardMedia, Typography implementations
+- [x] Phase F3: Consistent visual design across FeaturedBookStrip and BookCard
+
 ## Next Step
-Run MUI guidelines audit and verify dashboard renders with dummy data + placeholder images.
+All atomic design phases complete. Both branches ready for review.
