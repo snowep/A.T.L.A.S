@@ -1,6 +1,6 @@
 "use client";
 
-import { Card, CardContent, Box } from "@mui/material";
+import { Card, CardContent, Box, useMediaQuery } from "@mui/material";
 import { Book } from "@/lib/bookData";
 import { BookCover } from "@/components/atoms/BookCover";
 import { BookTitle } from "@/components/atoms/BookTitle";
@@ -20,6 +20,8 @@ export default function BookCard({
   onRemove, 
   onStatusChange 
 }: BookCardProps) {
+  const prefersReducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)');
+  const transition = prefersReducedMotion ? 'none' : 'all 0.2s ease';
   return (
     <Card 
       sx={{ 
@@ -28,7 +30,7 @@ export default function BookCard({
         borderRadius: 2,
         backgroundColor: 'rgba(255,255,255,0.02)',
         border: '1px solid rgba(255,255,255,0.08)',
-        transition: 'all 0.2s ease',
+        transition: transition,
         '&:hover': { 
           backgroundColor: 'rgba(255,255,255,0.04)',
           transform: 'translateY(-2px)',
