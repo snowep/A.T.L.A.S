@@ -1,9 +1,8 @@
 "use client";
 
-import { ListItem, ListItemButton, ListItemIcon } from "@mui/material";
+import { ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import Link from "next/link";
 import { NavIcon } from "@/components/atoms/NavIcon";
-import { NavLabel } from "@/components/atoms/NavLabel";
 
 interface NavItemProps {
   label: string;
@@ -23,14 +22,14 @@ export function NavItem({ label, icon, href }: NavItemProps) {
           <ListItemIcon>
             <NavIcon>{icon}</NavIcon>
           </ListItemIcon>
-          <NavLabel primary={label} />
+          <ListItemText primary={label} />
         </ListItemButton>
       ) : (
         <ListItemButton sx={{ textDecoration: "none", color: "inherit" }}>
           <ListItemIcon>
             <NavIcon>{icon}</NavIcon>
           </ListItemIcon>
-          <NavLabel primary={label} />
+          <ListItemText primary={label} />
         </ListItemButton>
       )}
     </ListItem>
