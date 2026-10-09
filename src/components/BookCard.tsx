@@ -12,22 +12,6 @@ export default function BookCard({
   onRemove, 
   onStatusChange 
 }: BookCardProps) {
-  const statusColors: Record<Book['status'], string> = {
-    daily: 'success',
-    library: 'info',
-    'reading-list': 'warning',
-    'buy-list': 'error',
-    'read-next': 'secondary'
-  };
-
-  const statusLabels: Record<Book['status'], string> = {
-    daily: 'Daily',
-    library: 'Library',
-    'reading-list': 'Reading List',
-    'buy-list': 'Buy List',
-    'read-next': 'Read Next'
-  };
-
   // Generate a placeholder cover image based on book title hash
   const coverUrl = `/api/placeholder-book?title=${encodeURIComponent(book.title)}&size=200x280`;
 
@@ -68,10 +52,33 @@ export default function BookCard({
         </Box>
 
         <Box sx={{ px: 2, mb: 2 }}>
-          <Typography variant="h6" component="div" sx={{ fontWeight: 500, color: 'primary' }}>
+          <Typography 
+            variant="h6" 
+            component="div" 
+            sx={{ 
+              fontWeight: 500, 
+              color: 'primary.main',
+              // Title: wrap to 2 lines max
+              display: '-webkit-box',
+              WebkitLineClamp: 2,
+              WebkitBoxOrient: 'vertical',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              lineHeight: 1.3,
+            }}
+          >
             {book.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography 
+            variant="body2" 
+            color="text.secondary"
+            sx={{
+              // Author: single line with ellipsis
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+            }}
+          >
             by {book.author}
           </Typography>
         </Box>

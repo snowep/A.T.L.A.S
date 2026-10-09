@@ -10,7 +10,8 @@ export function SearchBox() {
       placeholder="Search by title or author"
       size="small"
       sx={{
-        width: "40%",
+        width: { xs: '90%', sm: '60%', md: '50%', lg: '40%' },
+        maxWidth: 600,
         marginLeft: 2,
         marginRight: 2,
         "& .MuiInputBase-input": {
@@ -31,14 +32,14 @@ export function SearchBox() {
         },
         "&.Mui-focused .MuiOutlinedInput-root": {
           borderColor: theme.palette.primary.main,
-          boxShadow: `${theme.palette.mode === "light" 
-            ? theme.palette.primary.main 
+          boxShadow: `${theme.palette.mode === "light"
+            ? theme.palette.primary.main
             : theme.palette.primary.main} 0 0 0 2px`,
           backgroundColor: "transparent",
         },
         "& .MuiInputLabel-root": {
-          color: theme.palette.mode === "light" 
-            ? "rgba(0, 0, 0, 0.6)" 
+          color: theme.palette.mode === "light"
+            ? "rgba(0, 0, 0, 0.6)"
             : "rgba(255, 255, 255, 0.7)",
         },
         "&.Mui-focused .MuiInputLabel-root": {
