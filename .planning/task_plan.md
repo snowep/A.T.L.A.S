@@ -19,5 +19,15 @@ Implement a book showcase dashboard with MUI appbar "A.T.L.A.S." title, book cov
 - [ ] Phase 7: Test responsiveness and accessibility (WCAG 2.1 AA)
 - [ ] Phase 8: Document findings and close task plan
 
+## Experimental: Editorial Dashboard (v0.2.0)
+- [ ] Phase E1: Create application shell with centered rounded canvas
+- [ ] Phase E2: Build left navigation rail with icon items, active state, tooltips
+- [ ] Phase E3: Build top header with title, centered search, avatar/actions
+- [ ] Phase E4: Build main content: featured strip + resume/continue + explore sections
+- [ ] Phase E5: Build right recommendation rail with tinted panel
+- [ ] Phase E6: Implement responsive behavior (desktop → tablet → mobile)
+- [ ] Phase E7: Add interaction states (focus, hover, empty, loading, error)
+- [ ] Phase E8: Theme support (light/dark), accessibility audit, contrast verification
+
 ## Next Step
-Run MUI guidelines audit and verify dashboard renders with dummy data + placeholder images.
+Start Phase E1: Create application shell with centered rounded canvas
