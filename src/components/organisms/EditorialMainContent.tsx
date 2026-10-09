@@ -1,7 +1,7 @@
 "use client";
 
-import { Box, Typography, Chip, Card, CardMedia, Button, Divider } from "@mui/material";
-import { ArrowForward as ArrowForwardIcon, Bookmark as BookmarkIcon, Clock as ClockIcon } from "@mui/icons-material";
+import { Box, Typography, Chip, Card, CardMedia, Button, Divider, useTheme } from "@mui/material";
+import { ArrowForward as ArrowForwardIcon, Bookmark as BookmarkIcon } from "@mui/icons-material";
 import { placeholderBooks } from "@/lib/bookData";
 
 interface FeaturedBook {
@@ -31,6 +31,7 @@ const exploreCategories = [
 ];
 
 export function EditorialMainContent() {
+  const theme = useTheme();
 
   return (
     <Box sx={{ display: "flex", flexDirection: "column", gap: 4, minWidth: 0 }}>
@@ -162,7 +163,6 @@ export function EditorialMainContent() {
                     sx={{ fontSize: "0.7rem", height: 20 }}
                   />
                   <Typography variant="caption" color="text.secondary">
-                    <ClockIcon fontSize="small" sx={{ mr: 0.5, verticalAlign: "middle" }} />
                     Added {new Date(book.dateAdded).toLocaleDateString()}
                   </Typography>
                 </Box>
@@ -213,5 +213,5 @@ export function EditorialMainContent() {
         </Box>
       </Box>
     </Box>
-  });
-  }
+  );
+}

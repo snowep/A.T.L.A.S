@@ -89,13 +89,6 @@ export function EditorialHeader({ title, onMenuClick, drawerOpen }: EditorialHea
               color: theme.palette.text.secondary,
             },
           }}
-          InputProps={{
-            startAdornment: (
-              <Box sx={{ p: 1, color: theme.palette.text.secondary }}>
-                <SearchIcon fontSize="small" />
-              </Box>
-            ),
-          }}
           aria-label="Search"
         />
       </Box>

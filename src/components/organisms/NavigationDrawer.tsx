@@ -3,7 +3,7 @@
 import { Drawer, Toolbar, List, Divider, Box } from "@mui/material";
 import { NavItem } from "@/components/molecules/NavItem";
 
-interface NavigationItem {
+export interface NavigationItem {
   label: string;
   icon: React.ReactNode;
   href?: string;
