@@ -29,8 +29,8 @@ export function ClippedDrawerLayout({
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
-      <MainAppBar />
+      <Box sx={{ display: "flex" }}>
+        <MainAppBar />
       <NavigationDrawer 
         items={navigationItems} 
         width={drawerWidth} 

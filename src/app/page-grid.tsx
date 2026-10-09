@@ -71,7 +71,8 @@ export default function Dashboard() {
         </Fab>
 
         <Box sx={{ 
-          width: '100%',
+          maxWidth: 1200,
+          mx: 'auto',
           px: { xs: 2, md: 4 },
           '& h5': {
             fontFamily: theme.typography.fontFamily,
