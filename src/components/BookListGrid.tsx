@@ -22,7 +22,17 @@ export default function BookList({
   
   if (books.length === 0) {
     return (
-      <Box sx={{ mb: 6 }}>
+      <Box sx={{ 
+        width: "100%",
+        boxSizing: "border-box",
+        display: "grid",
+        gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fill, minmax(280px, 1fr))",
+        gap: 3,
+        p: 4,
+        borderRadius: 2,
+        bgcolor: "rgba(255,255,255,0.02)",
+        border: "1px solid rgba(255,255,255,0.05)",
+      }}>
         <Typography variant="h5" sx={{ 
           fontFamily: theme.typography.fontFamily,
           fontWeight: 510,
@@ -40,14 +50,16 @@ export default function BookList({
             {subtitle}
           </Typography>
         )}
-        <Box sx={{
-          display: 'grid',
-          gridTemplateColumns: isMobile ? '1fr' : 'repeat(auto-fill, minmax(280px, 1fr))',
+        <Box sx={{ 
+          width: "100%",
+          boxSizing: "border-box",
+          display: "grid",
+          gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fill, minmax(280px, 1fr))",
           gap: 3,
           p: 4,
           borderRadius: 2,
-          bgcolor: 'rgba(255,255,255,0.02)',
-          border: '1px solid rgba(255,255,255,0.05)',
+          bgcolor: "rgba(255,255,255,0.02)",
+          border: "1px solid rgba(255,255,255,0.05)",
         }}>
           <Box sx={{ gridColumn: '1 / -1', textAlign: 'center', py: 6 }}>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
